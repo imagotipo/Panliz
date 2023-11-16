@@ -1,0 +1,8 @@
+#miEncabezado {
+    opacity: 1; /* Opacidad inicial (completamente visible) */
+    transition: opacity 0.3s; /* Transición de 0.3 segundos para suavizar el cambio de opacidad */
+}
+
+#miEncabezado:hover {
+    opacity: 0.5; /* Opacidad al pasar el mouse (semi-difuminado) */
+}

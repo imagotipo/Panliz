@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PanLiz - Tu Panadería Favorita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        h3 {
+            color: #555;
+        }
+
+        p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PanLiz - Tu Panadería Favorita</h1>
+    </header>
+
+    <section>
+        <h2>Nuestros Productos</h2>
+        <p>Bienvenido a PanLiz, donde ofrecemos una variedad de deliciosos panes y pasteles.</p>
+
+        <h3>Panes</h3>
+        <ul>
+            <li>Pan integral</li>
+            <li>Baguette</li>
+            <li>Pan de ajo</li>
+            <li>Pan de elote - $30</li>
+        </ul>
+
+        <h3>Pasteles</h3>
+        <ul>
+            <li>Pastel de chocolate</li>
+            <li>Pastel de fresa</li>
+            <li>Pastel de zanahoria</li>
+        </ul>
+
+        <h3>Imagen del Pan de Elote</h3>
+        <img src="ruta/a/tu/imagen-del-pan-de-elote.jpg" alt="Pan de Elote">
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 PanLiz - Tu Panadería Favorita</p>
+    </footer>
+</body>
+</html>

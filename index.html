@@ -19,7 +19,7 @@
             padding: 10px;
             box-shadow: 4px 4px 7px rgba(255, 0, 0, 0.6);
             background-image: url(https://i.ytimg.com/vi/ILVv8WdbyFU/maxresdefault.jpg);
-            color: #aa5f09;
+            color: #6df71e;
             -webkit-text-stroke: 2px rgb(27, 17, 17);
             display: flex;
             justify-content: space-between;
@@ -39,6 +39,14 @@
         #social-icons {
             display: flex;
             gap: 10px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        #social-icons a img {
+            width: 30px; /* Tamaño ajustable según tus preferencias */
+            height: auto;
         }
 
         section {
@@ -70,12 +78,6 @@
         <h1>PanLiz - Tu Panadería Favorita</h1>
         <div>
             <button id="contact-btn">Contáctanos</button>
-            <div id="social-icons">
-                <!-- Agrega aquí tus iconos de redes sociales -->
-                <a href="https://www.instagram.com/aldotadeofloresrdz/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="Facebook"></a>
-                <a href="https://twitter.com/home" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/733/733635.png" alt="Twitter"></a>
-                <a href="https://www.facebook.com/aldo.floresrodriguez.79" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="Instagram"></a>
-            </div>
         </div>
     </header>
     <section>
@@ -91,6 +93,13 @@
         <h3>Imagen del Pan de Elote</h3>
         <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2021/07/receta-pan-de-elote-con-50-pesos.jpg" alt="Pan de Elote">
     </section>
+
+    <div id="social-icons">
+        <!-- Agrega aquí tus iconos de redes sociales -->
+        <a href="https://www.instagram.com/aldotadeofloresrdz/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="Facebook"></a>
+        <a href="https://twitter.com/home" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/733/733635.png" alt="Twitter"></a>
+        <a href="https://www.facebook.com/aldo.floresrodriguez.79" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="Instagram"></a>
+    </div>
 
     <footer>
         <p>&copy; 2023 PanLiz - Tu Panadería Favorita</p>
